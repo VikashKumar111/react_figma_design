@@ -1,38 +1,204 @@
-.App {
-  text-align: center;
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+    width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+h1 {
+    font-size: 160px;
+    font-weight: 700;
+    color: #222020;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+h2 {
+    font-size: 64px;
+    font-weight: 700;
+    color: #000000;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button {
+    padding: 40px 80px;
+    border-radius: 60px;
+    color: #151414;
+    text-transform: uppercase;
+    font-size: 34px;
+    background-color: white;
+    cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.navbar-seaction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.logo-wrapper .logo-text {
+position: absolute;
+left: 30.25%;
+right: 78.06%;
+top: 3.06%;
+bottom: 98.43%;
+
+font-family: 'Muli';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 30px;
+
+color: #233348;
+
+mix-blend-mode: normal;
+}
+
+
+
+.logo-wrapper .logo-icon {
+    width: 40%;
+    height: auto;
+    /* border: 1px solid red; */
+}
+
+
+.home{
+position: absolute;
+left: 53.94%;
+right: 42.88%;
+top: 1.19%;
+bottom: 98.42%;
+
+font-family: 'Muli';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+
+/* 1f1534-hyfen */
+
+color: #1F1534;
+
+}
+
+.doctor{
+    position: absolute;
+    left: 59.62%;
+    right: 33.5%;
+    top: 1.19%;
+    bottom: 98.42%;
+    
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    
+    /* 1f1534-hyfen */
+    
+    color: #1F1534;
+    
+    opacity: 0.5;
+}
+
+.apps{
+position: absolute;
+left: 69%;
+right: 28.25%;
+top: 1.19%;
+bottom: 98.42%;
+
+font-family: 'Muli';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+
+/* 1f1534-hyfen */
+
+color: #1F1534;
+
+opacity: 0.5;
+}
+
+.testimonials{
+position: absolute;
+left: 74.25%;
+right: 19.25%;
+top: 1.19%;
+bottom: 98.42%;
+
+font-family: 'Muli';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+
+/* 1f1534-hyfen */
+
+color: #1F1534;
+
+opacity: 0.5;
+}
+
+.about{
+position: absolute;
+left: 83.25%;
+right: 12%;
+top: 1.19%;
+bottom: 98.42%;
+
+font-family: 'Muli';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+
+/* 1f1534-hyfen */
+
+color: #1F1534;
+
+opacity: 0.5;
+}
+
+.headertext{
+position: absolute;
+left: 5.75%;
+right: 86.19%;
+top: 1.04%;
+bottom: 98.42%;
+
+font-family: 'Muli';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 33px;
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
 }
