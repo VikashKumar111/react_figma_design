@@ -1,6 +1,6 @@
 const HealthCareIllustration = () => {
   return (
-    <div>
+    <div className="Illustrationtwo">
       <svg
         width={650}
         height={477}

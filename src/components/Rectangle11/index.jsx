@@ -1,6 +1,6 @@
-const Rectang12 = () => {
+const Rectang11 = () => {
   return (
-    <div className="download_rectangle">
+    <div className="health_rectangle">
       <svg
         width={56}
         height={2}
@@ -13,4 +13,4 @@ const Rectang12 = () => {
     </div>
   );
 };
-export default Rectang12;
+export default Rectang11;

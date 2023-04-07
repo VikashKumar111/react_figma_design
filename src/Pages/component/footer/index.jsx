@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <div>
-      <div>
+    <div className="footer">
+      <div className="footer_trafalgar">
         <h1>Trafalgar</h1>
         <p>
           Trafalgar provides progressive, and affordable healthcare, accessible
@@ -9,21 +9,21 @@ const Footer = () => {
         </p>
         <p>©Trafalgar PTY LTD 2020. All rights reserved</p>
       </div>
-      <div>
+      <div className="footer_company">
         <h2>Company</h2>
         <h3>About </h3>
         <h3>Testimonials</h3>
         <h3> Find a doctor</h3>
         <h3>Apps</h3>
       </div>
-      <div>
+      <div className="footer_region">
         <h2>Region</h2>
         <h3>Indonesia </h3>
         <h3>Singapore</h3>
         <h3>Hongkong</h3>
         <h3>Canada</h3>
       </div>
-      <div>
+      <div className="footer_help">
         <h2>Help</h2>
         <h3>Help center </h3>
         <h3>Contact support</h3>
