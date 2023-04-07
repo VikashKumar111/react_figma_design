@@ -8,7 +8,7 @@ import Eclipse3 from "../../../components/Eclipse3";
 
 const Testimonials = () => {
   return (
-    <div>
+    <div className="testimonialsSection">
       <div className="testimonials_rectangle13">
         <h1>What our customer are saying</h1>
         <Image1 />
@@ -21,10 +21,10 @@ const Testimonials = () => {
         </p>
       </div>
       <VectorLeft />
-      <Eclipse6 />
       <Eclipse5 />
-      <Eclipse4 />
       <Eclipse3 />
+      <Eclipse4 />
+      <Eclipse6 />
       <VectorRight />
     </div>
   );

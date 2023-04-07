@@ -12,8 +12,8 @@ const DownApps = () => {
           access information instantaneously (no tedeous form, long calls, or
           administrative hassle) and securely
         </p>
-        <div className="download_button">
-          <button>
+        <div>
+          <button className="download_button">
             <h3>Download</h3>
             <VectorArr1 />
           </button>

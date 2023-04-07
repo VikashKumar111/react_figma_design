@@ -3,10 +3,9 @@ import HealthCareIllustration from "../../../components/HealthIllustration";
 import Rectang11 from "../../../components/Rectangle11";
 const HealthProvider = () => {
   return (
-    <div>
+    <div className="providers">
       <HealthCareIllustration />
-
-      <div>
+      <div className="providers_text">
         <h1 className="providers_h1">Leading healthcare providers</h1>
         <Rectang11 />
         <p className="health_p">
