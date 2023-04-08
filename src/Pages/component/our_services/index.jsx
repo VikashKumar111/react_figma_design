@@ -17,8 +17,6 @@ const Services = () => {
         <div className="services_rectangle8">Details info</div>
         <div className="services_rectangle9">Emergency care</div>
         <div className="services_rectangle10">Tracking</div>
-      </div>
-      <div>
         <button className="services_button">Learn More</button>
       </div>
     </div>

@@ -5,7 +5,7 @@ const HealthProvider = () => {
   return (
     <div className="providers">
       <HealthCareIllustration />
-      <div className="providers_text">
+      <div>
         <h1 className="providers_h1">Leading healthcare providers</h1>
         <Rectang11 />
         <p className="health_p">

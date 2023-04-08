@@ -1,6 +1,6 @@
 const HeaderLogoText = () => {
   return (
-    <div>
+    <div className="headerLogoText">
       <p>T</p>
     </div>
   );

@@ -1,6 +1,7 @@
 const Eclipse6 = () => {
   return (
     <svg
+      className="testimonials_eclipse6"
       width={10}
       height={10}
       viewBox="0 0 10 10"

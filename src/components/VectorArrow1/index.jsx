@@ -2,6 +2,7 @@ const VectorArr1 = () => {
   return (
     <div>
       <svg
+        className="download_button_arrow"
         width={11}
         height={16}
         viewBox="0 0 11 16"
