@@ -1,14 +1,20 @@
+import Eclipse8 from "../../../components/Eclipse8";
+
 const Footer = () => {
   return (
     <div className="footer">
       <div className="footer_bg">
-        <div className="footer_trafalgar">
-          <h1>Trafalgar</h1>
-          <p>
+        <div>
+          <Eclipse8 />
+          <h1 className="footer_eclipse_text">T</h1>
+          <h1 className="footer_trafalgar_h1">Trafalgar</h1>
+          <p className="footer_trafalgar_p">
             Trafalgar provides progressive, and affordable healthcare,
             accessible on mobile and online for everyone
           </p>
-          <p>©Trafalgar PTY LTD 2020. All rights reserved</p>
+          <p className="footer_trafalgar_p2">
+            ©Trafalgar PTY LTD 2020. All rights reserved
+          </p>
         </div>
         <div className="footer_company">
           <h2>Company</h2>
