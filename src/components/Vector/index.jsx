@@ -21,8 +21,8 @@ const Vector = () => {
             y2="-71.2526"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#97C3F9" />
-            <stop offset="1" stop-color="#93C1F9" />
+            <stop stopColor="#97C3F9" />
+            <stop offset="1" stopColor="#93C1F9" />
           </linearGradient>
         </defs>
       </svg>

@@ -1,4 +1,6 @@
+// import Imag2 from "../../../components/Image2";
 import Rectang18 from "../../../components/Rectangle18";
+import ArticleOneImage from "./components/ArticleOneImage";
 
 const LatestArticle = () => {
   return (
@@ -6,6 +8,7 @@ const LatestArticle = () => {
       <h1 className="article_h1">Check out our latest article</h1>
       <Rectang18 />
       <div>
+        <ArticleOneImage />
         <h3 className="article__image1_h3">
           Disease detection, check up in the laboratory{" "}
         </h3>

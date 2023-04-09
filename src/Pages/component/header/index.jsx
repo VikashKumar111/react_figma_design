@@ -79,12 +79,12 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <div>
+          {/* <div>
             <HeaderText />
           </div>
           <div>
             <HeaderIllustration />
-          </div>
+          </div> */}
         </div>
       </div>
     </header>
